@@ -1,6 +1,6 @@
 # [フロントエンド・エンジニアのためのNode.js](https://app.codegrid.net/series/2014-nodejs)
 
-[CodeGrid](http://www.codegrid.net/)の「[賢く使うStyleDocco導入ガイド](https://app.codegrid.net/series/2014-nodejs)」の記事内で使用しているサンプルです。
+[CodeGrid](http://www.codegrid.net/)の「[フロントエンド・エンジニアのためのNode.js](https://app.codegrid.net/series/2014-nodejs)」の記事内で使用しているサンプルです。
 
 各サンプルの解説については上記記事をご確認ください。
 
