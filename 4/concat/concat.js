@@ -8,4 +8,4 @@ var outString = srcFiles.map(function(file) {
 }).join('\n');
 
 fs.writeFileSync(outFile, outString, { encoding: 'utf8' });
-console.log('Concat successfule! output a "' + outFile + '"');
+console.log('Concat successful! output a "' + outFile + '"');

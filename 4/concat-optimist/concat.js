@@ -6,4 +6,4 @@ var outString = argv.input.split(',').map(function(file) {
 }).join('\n');
  
 fs.writeFileSync(argv.output, outString, { encoding: 'utf8' });
-console.log('Concat successfule! output a "' + argv.output + '"');
+console.log('Concat successful! output a "' + argv.output + '"');
