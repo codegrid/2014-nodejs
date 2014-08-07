@@ -1,7 +1,7 @@
 // fs-read.js
 var fs = require('fs');
 
-fs.readFile('./test.txt', { encoding: 'utf8' }, function(err, data) {
+fs.readFile(__dirname + '/test.txt', { encoding: 'utf8' }, function(err, data) {
   if (err) {
     console.error(err);
   }
