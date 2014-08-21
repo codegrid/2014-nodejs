@@ -12,10 +12,18 @@
 
 各ディレクトリのサンプルは以下のような仕様です。
 
-- `3/fs-read` Node.jsによるファイルの読み込み
-- `3/fs-write` Node.jsによるファイルの書き込み
-- `4/concat` ファイルの連結と書き出し
-- `4/concat-optimist` ファイルの連結と書き出し（コマンドライン引数の使用）
+- 3
+    - fs-read： Node.jsによるファイルの読み込み
+    - fs-write： Node.jsによるファイルの書き込み
+- 4
+  - concat： ファイルの連結と書き出し
+  - concat-optimist： ファイルの連結と書き出し（コマンドライン引数の使用）
+- 5
+  - 01-run-only： HTTPサーバーの起動
+  - 02-url-handling：URLによる処理の振り分け
+  - 03-404-handling：どのURLにもマッチしなかったときに404を返す
+  - 04-render-html： htmlを返す
+  - 05-post-handling： POSTの処理をハンドリングする
 
 ## サンプルの使い方
 
