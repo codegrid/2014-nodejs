@@ -1,0 +1,17 @@
+extend layout
+
+block body
+  ul.memoList
+    each memo in memos
+      li
+        a(href="/memo/#{memo.id}")
+          span.text #{memo.title}
+
+  form.createForm(method="post", action="/memo")
+    .inputGroup
+      .label Title
+      input(type="text", name="title")
+    .inputGroup
+      .label Memo
+      textarea(name="body")
+    input(type="submit", value="Create")

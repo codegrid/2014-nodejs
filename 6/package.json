@@ -1,0 +1,11 @@
+{
+  "name": "codegrid-nodejs-6",
+  "main": "server.js",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.6.5",
+    "express": "^4.8.5",
+    "jade": "^1.5.0",
+    "serve-static": "^1.5.3"
+  }
+}

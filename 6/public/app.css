@@ -1,0 +1,78 @@
+a {
+  color: #0078e7;
+  text-decoration: none;
+}
+a:hover {
+  color: #ad2c3c;
+}
+
+.memoList {
+  font-size: 18px;
+}
+
+.memoList li {
+  margin: 5px 0;
+}
+
+.createForm {
+  margin-top: 30px;
+}
+
+.inputGroup {
+  padding: 10px 0;
+}
+
+.inputGroup .label {
+  display: block;
+  font-weight: bold;
+}
+
+.inputGroup input[type="text"] {
+  width: 300px;
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #999;
+}
+
+.inputGroup textarea {
+  font-size: 15px;
+  padding: 10px;
+  width: 500px;
+  height: 200px;
+  border-radius: 4px;
+  border: 1px solid #999;
+  line-height: 1.5;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  vertical-align: baseline;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  background-color: #0078e7;
+  color: white;
+  font-family: inherit;
+  font-size: 100%;
+  padding: .5em 1em;
+  border: 0 rgba(0,0,0,0);
+  border-radius: 2px;
+}
+
+input[type="submit"]:hover {
+  background-color: #016ed4;
+}
+
+.memoTitle {
+  font-size: 30px;
+  padding: 5px 15px;
+  background-color: #EEE;
+  border-radius: 5px;
+}
+
+.memoBody {
+  padding: 0 10px;
+  white-space: pre;
+}
