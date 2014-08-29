@@ -24,7 +24,7 @@
   - 03-404-handling：どのURLにもマッチしなかったときに404を返す
   - 04-render-html： htmlを返す
   - 05-post-handling： POSTの処理をハンドリングする
--6
+- 6
   - package.json
   - public/app.css：メモアプリのためのスタイルシート
   - server.js：動作のためのJavaScript
