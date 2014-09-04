@@ -31,6 +31,12 @@
   - views/index.jade：トップページのテンプレート
   - views/layout.jade：すべてのページの共通レイアウト
   - views/show.jade：メモ詳細ページのテンプレート
+- 7
+  - package.json
+  - app.css：チャットアプリのスタイルシート
+  - client.js：クライアント（ブラウザ）の動作のためのJavaScript
+  - index.html：クライアントのUI
+  - server.js：サーバーの動作のためのJavaScript
 
 ## サンプルの使い方
 
